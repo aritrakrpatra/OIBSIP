@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: rgb(192, 196, 200);
+}
+
+header {
+  background-color: #2fd8e4;
+  color: #ffffffe9;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #41b0cf;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.about-container {
+  padding: 2rem;
+}
+
+.about-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects-container {
+  padding: 2rem;
+}
+
+.projects-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+.project img {
+  width: 15%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin: 1rem 0;
+}
+
+.project p {
+  color: #666;
+}
+
+.contact-container {
+  padding: 2rem;
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-container form {
+  margin-top: 1rem;
+}
+
+.contact-container input,
+.contact-container textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.contact-container button {
+  background-color: #41b0cf;
+  background-color: ;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
